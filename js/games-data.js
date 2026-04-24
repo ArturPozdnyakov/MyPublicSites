@@ -490,7 +490,7 @@ const games = [
             "Horror",
             "Puzzle"
         ],
-        "description": "-0.5 балл за уебищные лица главных персонажей кроме разве-что Ады и шефа\n-0.5 за деревянность персонажей"
+        "description": "-0.5 балла за уебищные лица главных персонажей кроме разве-что Ады и шефа\n-0.5 балла за деревянность персонажей"
     },
     {
         "title": "Minecraft",
@@ -724,6 +724,247 @@ const games = [
         "genres": [
             "Strategy",
             "Survival"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Resident Evil 4 Remake",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.7,
+        "timesCompleted": 3,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror",
+            "Puzzle"
+        ],
+        "description": "-0.5 балла из-за деревянности персонажей"
+    },
+    {
+        "title": "Resident Evil 7: Biohazard",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/header.jpg",
+        "myRating": 7.8,
+        "steamRating": 9.5,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Horror"
+        ],
+        "description": "Для меня хуета неинтересная против бомжей"
+    },
+    {
+        "title": "Resident Evil: Village",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": 3,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror"
+        ],
+        "description": "-0.5 балла за превращение в конце в тупой шутан\n\nНорм телочки есть."
+    },
+    {
+        "title": "Hot Lava",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/382560/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.3,
+        "timesCompleted": -1,
+        "genres": [
+            "Racing"
+        ],
+        "description": "-0.5 балла за какие-то нахуй комиксы и мультики ебанные, и мне пох если так и надо"
+    },
+    {
+        "title": "Detroit Become Human",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": 1,
+        "genres": [
+            "Action"
+        ],
+        "description": "-0.5 балла за немного сжв дерьма"
+    },
+    {
+        "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1643320/header.jpg",
+        "myRating": 3.0,
+        "steamRating": 8.1,
+        "timesCompleted": 3,
+        "genres": [
+            "Shooter",
+            "Open-World"
+        ],
+        "description": "Неинтересное украинское дерьмо"
+    },
+    {
+        "title": "Dispatch",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2592160/header.jpg",
+        "myRating": 3.0,
+        "steamRating": 9.8,
+        "timesCompleted": 3,
+        "genres": [
+            "Puzzle"
+        ],
+        "description": "Неинтесный мультик, сжв дерьмо, гемплей ужасен"
+    },
+    {
+        "title": "Painkiller 2025",
+        "image": "https://avatars.mds.yandex.net/get-mpic/16186641/2a0000019a0839628a48898de43a69c4ec26/orig",
+        "myRating": 3.0,
+        "steamRating": 5.5,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Co-op"
+        ],
+        "description": "Превратили легенду в сжв дерьмо и пасту дума"
+    },
+    {
+        "title": "Garry's Mod",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/4000/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.7,
+        "timesCompleted": -1,
+        "genres": [
+            "Sandbox"
+        ],
+        "description": "Ужасная оптимизация, сама игра не особо зашла что-то"
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+        "myRating": 2.0,
+        "steamRating": 8.7,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Open-World"
+        ],
+        "description": "Ужасная оптимизация, неинтересный кусок дерьма с 99999 багов"
+    },
+    {
+        "title": "The Witcher 3: Wild Hunt",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.7,
+        "timesCompleted": 0,
+        "genres": [
+            "RPG",
+            "Open-World"
+        ],
+        "description": "Не зашло"
+    },
+    {
+        "title": "Among us",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.2,
+        "timesCompleted": -1,
+        "genres": [
+            "Stealth",
+            "Survival"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Geometry Dash",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.3,
+        "timesCompleted": -1,
+        "genres": [
+            "Редактор уровней"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Half-Life 2 & Episode 1 & 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg",
+        "myRating": 9.8,
+        "steamRating": 9.8,
+        "timesCompleted": 4,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Co-op"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Counter-Strike: Source",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.6,
+        "timesCompleted": -1,
+        "genres": [
+            "Shooter"
+        ],
+        "description": "Дерьма физика и sv_airaccelerate + тики появились"
+    },
+    {
+        "title": "Far Cry New Dawn",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/939960/header.jpg",
+        "myRating": 7.5,
+        "steamRating": 7.5,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Open-World"
+        ],
+        "description": "Плохая оптимизация, качал несколько раз и каждый раз надоедало"
+    },
+    {
+        "title": "Totally Accurate Battle Simulator",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/508440/header.jpg",
+        "myRating": 9.0,
+        "steamRating": 9.8,
+        "timesCompleted": 1,
+        "genres": [
+            "Sandbox"
+        ],
+        "description": ""
+    },
+    {
+        "title": "MiSide",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2527500/header.jpg",
+        "myRating": 2.3,
+        "steamRating": 9.8,
+        "timesCompleted": 3,
+        "genres": [
+            "Horror"
+        ],
+        "description": "Аниме дерьмо от русских"
+    },
+    {
+        "title": "Castle Crashers",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/204360/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": 4,
+        "genres": [
+            "Adventure",
+            "Slasher",
+            "Co-op"
+        ],
+        "description": ""
+    },
+    {
+        "title": "F.E.A.R. 3",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/21100/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 6.9,
+        "timesCompleted": 4,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror"
         ],
         "description": ""
     }
