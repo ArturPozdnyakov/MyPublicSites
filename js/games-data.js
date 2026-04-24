@@ -258,7 +258,9 @@ const games = [
             "Action",
             "Horror",
             "Open-World",
-            "Co-op"
+            "Co-op",
+            "Survival",
+            "Sandbox"
         ],
         "description": "-0.2 балла за мини-баги\n-0.5 балла за то что моментами rtx-видюху грузило на 100% несколько минут"
     },
@@ -316,7 +318,7 @@ const games = [
             "Shooter",
             "Co-op"
         ],
-        "description": "Фантастическая казуальность"
+        "description": "Казуальщина"
     },
     {
         "title": "Thymesia",
@@ -376,5 +378,353 @@ const games = [
             "Co-op"
         ],
         "description": "Оптимизация не очень, слишком фанстастика"
+    },
+    {
+        "title": "Painkiller Overdose",
+        "image": "https://cdn.vkplay.ru/pre_600x315_crop/hotbox/showcase/gamelocale/picture_horizontal/45060-h-images-8-6-a-0_dPvT2NPt_23470_3.jpg?quality=85",
+        "myRating": 8.5,
+        "steamRating": 7.0,
+        "timesCompleted": 2,
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Sons of The Forest",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1326470/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 8.8,
+        "timesCompleted": 3,
+        "genres": [
+            "Horror",
+            "Open-World",
+            "Co-op",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": "-1 балл за ужасную оптимизацию\n-1 балл за превращение сюжета в к***...***(no spoilers) бред"
+    },
+    {
+        "title": "Terraria",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/105600/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.8,
+        "timesCompleted": 4,
+        "genres": [
+            "Action",
+            "Co-op",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": "Мне лично менее интересней становиться играть при переходе в hardmod, из-за этого и снижаю 0.5 балла"
+    },
+    {
+        "title": "Orion",
+        "image": "https://i.ytimg.com/vi/XNWpiuJUji0/maxresdefault.jpg",
+        "myRating": 8.8,
+        "steamRating": 9.4,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Flash",
+            "Sandbox"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Clair Obscur: Expedition 33",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1903340/header.jpg",
+        "myRating": 2.5,
+        "steamRating": 9.5,
+        "timesCompleted": 3,
+        "genres": [
+            "RPG",
+            "Action",
+            "Adventure",
+            "Strategy"
+        ],
+        "description": "Проще перечислить плюсы чем минусы:\n+0.5 балла за музыку в моментах норм, но бывает и хуйня, а также как будто нейронка\n+1 балл за тянок\n+0.5 за прокачку\n+0.5 за сюжет (он на любителя)\n\nИз минусов: Ужасная оптимизация"
+    },
+    {
+        "title": "Resident Evil Requiem",
+        "image": "https://i.ytimg.com/vi/tDL4kqvMk6c/maxresdefault.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror",
+            "Stealth",
+            "Puzzle"
+        ],
+        "description": "Ахуенная оптимизация (кроме поднятия предметов на осмотр, там шейдеры грузятся динамически), в моментах прохождения особенно за Леона бывает рутина, хорошая игра но немного не дотянула до шедевра (хз как объяснить)"
+    },
+    {
+        "title": "Resident Evil 6",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/221040/header.jpg",
+        "myRating": 9.0,
+        "steamRating": 7.9,
+        "timesCompleted": 4,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror",
+            "Puzzle",
+            "Co-op"
+        ],
+        "description": "-1 балл за некрасивые переработанные зачем-то лица главных героев...\n\nСюжет один, разделенный на всех персонажей, за каждого сыграть чтобы полную картину увидеть. Понравился саундтрек"
+    },
+    {
+        "title": "Resident Evil 2 Remake",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg",
+        "myRating": 9.0,
+        "steamRating": 9.7,
+        "timesCompleted": 3,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Horror",
+            "Puzzle"
+        ],
+        "description": "-0.5 балл за уебищные лица главных персонажей кроме разве-что Ады и шефа\n-0.5 за деревянность персонажей"
+    },
+    {
+        "title": "Minecraft",
+        "image": "https://avatars.mds.yandex.net/get-mpic/4497593/2a0000018ac0f03505f920764b68da831580/orig",
+        "myRating": 5.0,
+        "steamRating": 8.2,
+        "timesCompleted": 0,
+        "genres": [
+            "Adventure",
+            "Open-World",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": "Тупая хуета для аутистов, плохая оптимизация"
+    },
+    {
+        "title": "Reservoir Dogs",
+        "image": "https://i.ytimg.com/vi/GvdHFizgz0g/maxresdefault.jpg",
+        "myRating": 7.0,
+        "steamRating": 7.3,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Racing"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Black Myth: Wukong",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2358720/header.jpg",
+        "myRating": 3.0,
+        "steamRating": 9.6,
+        "timesCompleted": 3,
+        "genres": [
+            "Action",
+            "Souls-like"
+        ],
+        "description": "Тупая хуета для аутистов, обезьянка кунфу, плохая оптимизация"
+    },
+    {
+        "title": "Death Stranding",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190460/header.jpg",
+        "myRating": 1.5,
+        "steamRating": 9.3,
+        "timesCompleted": 3,
+        "genres": [
+            "Open-World"
+        ],
+        "description": "СЖВ дерьмо, тупейший бред, гемплей за курьера"
+    },
+    {
+        "title": "The Last of Us Part I",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+        "myRating": 9.2,
+        "steamRating": 8.4,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Shooter",
+            "Stealth"
+        ],
+        "description": "-0.5 балла за хуевую оптимизацию но fsr с frame generation спасает ситуацию\n-0.3 за один лгбт момент\n\nМного смешных багов в ютубе есть, но в моем прохождение все было норм"
+    },
+    {
+        "title": "The Last of Us Part 2 Remastered",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
+        "myRating": 7.0,
+        "steamRating": 9.1,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Adventure",
+            "Shooter",
+            "Stealth"
+        ],
+        "description": "-1 балл за ужасную оптимизацию (но с патчем инструкций проца + fsr и frame generation +- можно играть, но придется загружать заново загружать вручную сегменты локаций, так как теперь шейдеры динамично-статические)\n\n-1 балл за много лгбт\n\n-1 балл за испорченную концовку хотя можно было раньше закончить = +-happy end\n\nМного смешных багов в ютубе есть, но в моем прохождение все было норм"
+    },
+    {
+        "title": "Total Overdose",
+        "image": "https://avatars.mds.yandex.net/i?id=9ed5423743ca629d6935ab1d9886520a_l-8352896-images-thumbs&n=13",
+        "myRating": 8.5,
+        "steamRating": 7.4,
+        "timesCompleted": 2,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Open-World",
+            "GTA-like"
+        ],
+        "description": ""
+    },
+    {
+        "title": "POSTAL 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/223470/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.7,
+        "timesCompleted": 4,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Open-World",
+            "Co-op"
+        ],
+        "description": "-0.5 балла за плохую оптимизацию и древний движок"
+    },
+    {
+        "title": "Left 4 Dead",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/500/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": -1,
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
+        "description": "-0.5 за супер низкий airaccelerate что юнреал норм мувмить.\nМало ru серваков"
+    },
+    {
+        "title": "Left 4 Dead 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/550/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.8,
+        "timesCompleted": -1,
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
+        "description": "-0.5 за супер низкий airaccelerate что юнреал норм мувмить.\nМало ru серваков"
+    },
+    {
+        "title": "Grounded",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg",
+        "myRating": 9.1,
+        "steamRating": 9.1,
+        "timesCompleted": 4,
+        "genres": [
+            "Adventure",
+            "Open-World",
+            "Strategy",
+            "Co-op",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": "Оптимизация пойдет, слишком дохуя жрать и пить надо = бьет по скорости прохождения, также банят аккаунты в misrosoft, без них нельзя и ссанный xbox скачивать, вместо просто по LAN или Steam, слишком люто защищать хуйни одни надо (в креативе дефали), поставлю крч оценку как и в Steam."
+    },
+    {
+        "title": "Grounded 2",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2661300/a9f02144893a4bad56c7333c068e9ae2e28da52d/capsule_616x353.jpg?t=1770077103",
+        "myRating": 5.0,
+        "steamRating": 8.2,
+        "timesCompleted": 0,
+        "genres": [
+            "Adventure",
+            "Open-World",
+            "Strategy",
+            "Co-op",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": "-2 балла за супер хуевую оптимизацию\n-1 балл за множество багов\n-1 балл за сжв дерьмо\n-1 балл за то что нихуя не интересно все почти одно и тоже как будто в первую часть играешь но хуевую ещё\n\nP.S. Мне пох что это ранний доступ."
+    },
+    {
+        "title": "Portal 1",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/400/header.jpg",
+        "myRating": 9.9,
+        "steamRating": 9.9,
+        "timesCompleted": 1,
+        "genres": [
+            "Puzzle"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Portal 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/620/header.jpg",
+        "myRating": 9.9,
+        "steamRating": 9.9,
+        "timesCompleted": 4,
+        "genres": [
+            "Puzzle",
+            "Co-op"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Portal Knights",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374040/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 8.4,
+        "timesCompleted": 4,
+        "genres": [
+            "RPG",
+            "Adventure",
+            "Sandbox"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Dungeon Defenders",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/65800/header.jpg",
+        "myRating": 9.3,
+        "steamRating": 9.3,
+        "timesCompleted": 1,
+        "genres": [
+            "Strategy",
+            "Co-op",
+            "Survival"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Lost Magic",
+        "image": "https://shara-games.ru/339-lost-magic.jpg",
+        "myRating": 5.0,
+        "steamRating": 6.9,
+        "timesCompleted": -1,
+        "genres": [
+            "RPG",
+            "Adventure"
+        ],
+        "description": "-1 балл за мертвый онлайн\n-1 балл на похуизм разраба\n-1 балл за баги\n-1 балл за выкачку денег донатом, урезает все тем самым мотивирую тратиться\n-1 балл за превращение в mobile дерьмище в Steam\n\nЕсли и хотите попробовать то ищите десктопный клиент на сайте или хз где архивом, потому что в Steam просто рыгатня. Но играть не получится так как она рассчитана на кооп но онлайн практически нулевой = донать (много) или 999 часов фармись"
+    },
+    {
+        "title": "Plants vs. Zombies",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/3590/header.jpg",
+        "myRating": 10.0,
+        "steamRating": 9.8,
+        "timesCompleted": 2,
+        "genres": [
+            "Strategy",
+            "Survival"
+        ],
+        "description": ""
     }
 ];
