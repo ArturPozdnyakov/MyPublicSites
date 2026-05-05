@@ -682,10 +682,11 @@ const games = [
         "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/374040/header.jpg",
         "myRating": 8.5,
         "steamRating": 8.4,
-        "timesCompleted": 4,
+        "timesCompleted": 1,
         "genres": [
             "RPG",
             "Adventure",
+            "Co-op",
             "Sandbox"
         ],
         "description": ""
@@ -967,5 +968,171 @@ const games = [
             "Horror"
         ],
         "description": ""
+    },
+    {
+        "title": "Little Misfortune",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/714120/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 9.2,
+        "timesCompleted": 1,
+        "genres": [
+            "Horror"
+        ],
+        "description": "Пару смешных моментов есть, просто обычная игра"
+    },
+    {
+        "title": "Dungeon Defenders 2",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/236110/header.jpg",
+        "myRating": 7.5,
+        "steamRating": 6.8,
+        "timesCompleted": -1,
+        "genres": [
+            "RPG",
+            "Strategy",
+            "Survival"
+        ],
+        "description": "Мало онлайна, нет русской локализации"
+    },
+    {
+        "title": "Outlast",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/238320/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 9.7,
+        "timesCompleted": 3,
+        "genres": [
+            "Horror"
+        ],
+        "description": ""
+    },
+    {
+        "title": "The Elder Scrolls 4: Oblivion Remastered",
+        "image": "https://avatars.mds.yandex.net/get-mpic/5296089/2a00000197ea62fb88cc4d6e46a1ad4c42ed/orig",
+        "myRating": 3.0,
+        "steamRating": 7.8,
+        "timesCompleted": 0,
+        "genres": [
+            "RPG",
+            "Open-World"
+        ],
+        "description": "Неоптимизированный калл + скучный как и все The Elder Scrolls"
+    },
+    {
+        "title": "Tiny Bunny",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1421250/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 8.3,
+        "timesCompleted": 1,
+        "genres": [
+            "Horror"
+        ],
+        "description": "-1.5 балла за то что нищая русня на разрабах несла хуйню, пыталась засудить ютуберов игравших в эту же игру"
+    },
+    {
+        "title": "Craft The World",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/248390/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 8.9,
+        "timesCompleted": 2,
+        "genres": [
+            "Sandbox"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Don't Starve",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/219740/header.jpg",
+        "myRating": 7.0,
+        "steamRating": 9.7,
+        "timesCompleted": 0,
+        "genres": [
+            "Open-World",
+            "Survival",
+            "Sandbox"
+        ],
+        "description": ""
+    },
+    {
+        "title": "7 Days to Die",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/251570/header.jpg",
+        "myRating": 7.5,
+        "steamRating": 8.7,
+        "timesCompleted": 0,
+        "genres": [
+            "Open-World",
+            "Survival"
+        ],
+        "description": ""
+    },
+    {
+        "title": "BioShock Infinite",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/8870/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 9.3,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Shooter"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Far Cry 3",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/220240/header.jpg",
+        "myRating": 8.5,
+        "steamRating": 8.8,
+        "timesCompleted": 0,
+        "genres": [
+            "Action",
+            "Shooter",
+            "Open-World",
+            "Co-op"
+        ],
+        "description": "Вроде как есть кооп"
+    },
+    {
+        "title": "The Henry Stickmin Collection",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1089980/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.9,
+        "timesCompleted": 2,
+        "genres": [
+            "Adventure"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Until Dawn",
+        "image": "https://i.ytimg.com/vi/1i9ugYUaotU/maxresdefault.jpg",
+        "myRating": 7.0,
+        "steamRating": 8.2,
+        "timesCompleted": 3,
+        "genres": [
+            "Adventure",
+            "Horror"
+        ],
+        "description": ""
+    },
+    {
+        "title": "South Park: The Stick of Truth",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/header.jpg",
+        "myRating": 9.7,
+        "steamRating": 9.7,
+        "timesCompleted": 2,
+        "genres": [
+            "RPG",
+            "Adventure"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Ultimate Chicken Horse",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/386940/header.jpg",
+        "myRating": 9.5,
+        "steamRating": 9.6,
+        "timesCompleted": -1,
+        "genres": [
+            "Co-op"
+        ],
+        "description": "Играл с мамой и мл. братом, душевно было"
     }
 ];

@@ -91,6 +91,8 @@ const
 let currentFilter = 'all';
 let currentSort = 'default';
 let sortDirection = 'desc';
+let isLocked = true;
+let searchQuery = '';
 
 function translateGenre(genre) {
   const lower = genre.toLowerCase();
@@ -140,7 +142,6 @@ function updateStats() {
 
   topGenreText.textContent = translateGenre(topGenre);
 
-  // Подменяем иконку на иконку топового жанра (увеличивая размер с 16 до 24)
   if (topGenre && genreConfig[topGenre] && genreConfig[topGenre].icon) {
     let svgString = genreConfig[topGenre].icon;
     svgString = svgString.replace('width="16"', 'width="24"')
@@ -189,9 +190,20 @@ function renderFilters() {
 }
 
 function getFilteredGames() {
-  if (currentFilter === 'all') return games.slice();
-  return games.filter(
-      g => g.genres.some(x => x.toLowerCase() === currentFilter.toLowerCase()));
+  let list = games.slice();
+
+  if (currentFilter !== 'all') {
+    list = list.filter(
+        g => g.genres.some(
+            x => x.toLowerCase() === currentFilter.toLowerCase()));
+  }
+
+  if (searchQuery.trim()) {
+    const query = searchQuery.toLowerCase();
+    list = list.filter(g => g.title.toLowerCase().includes(query));
+  }
+
+  return list;
 }
 
 function getSortedGames(list) {
@@ -239,11 +251,7 @@ function getStatusConfig(times) {
     case 1:
       return {cls: 'completed', icon: checkIcon, text: 'Пройдена'};
     case 2:
-      return {
-        cls: 'multi',
-        icon: trophyIcon,
-        text: 'Пройдена много раз'
-      };  // Изменено здесь
+      return {cls: 'multi', icon: trophyIcon, text: 'Пройдена много раз'};
     case 3:
       return {cls: 'watched', icon: eyeIcon, text: 'Смотрел прохождение'};
     case 4:
@@ -342,10 +350,10 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, {threshold: 0.05, rootMargin: '0px 0px -20px 0px'});
 
-// Плавная смена карточек при фильтрации
 function renderGames() {
   const grid = document.getElementById('gamesGrid');
   const empty = document.getElementById('emptyState');
+  const emptyMessage = document.getElementById('emptyMessage');
 
   grid.classList.add('fading');
 
@@ -355,6 +363,11 @@ function renderGames() {
 
     if (list.length === 0) {
       empty.style.display = 'block';
+      if (searchQuery.trim()) {
+        emptyMessage.textContent = 'Такой игры нет или вы опечатались';
+      } else {
+        emptyMessage.textContent = 'Игр с таким жанром пока нет';
+      }
     } else {
       empty.style.display = 'none';
       list.forEach(game => {
@@ -383,7 +396,6 @@ function openModal(game) {
   steamEl.textContent = game.steamRating.toFixed(1);
   steamEl.style.color = getRatingColor(game.steamRating);
 
-  // Добавляем data-genre для кликабельности в модалке
   document.getElementById('modalGenres').innerHTML =
       game.genres
           .map(
@@ -391,7 +403,6 @@ function openModal(game) {
                   translateGenre(g)}</span>`)
           .join('');
 
-  // Обработчик клика по жанру в модалке
   document.querySelectorAll('#modalGenres .genre-chip').forEach(chip => {
     chip.addEventListener('click', (e) => {
       const genreKey = chip.dataset.genre;
@@ -463,6 +474,61 @@ items.forEach(item => {
 
 document.addEventListener('click', e => {
   if (!dropdown.contains(e.target)) dropdown.classList.remove('open');
+});
+
+const lockToggle = document.getElementById('lockToggle');
+const controlsSection = document.querySelector('.controls-section');
+const lockOpen = lockToggle.querySelector('.lock-open');
+const lockClosed = lockToggle.querySelector('.lock-closed');
+
+lockToggle.addEventListener('click', () => {
+  isLocked = !isLocked;
+
+  if (isLocked) {
+    lockToggle.classList.add('locked');
+    lockOpen.style.display = 'none';
+    lockClosed.style.display = 'block';
+    controlsSection.classList.remove('unlocked');
+  } else {
+    lockToggle.classList.remove('locked');
+    lockOpen.style.display = 'block';
+    lockClosed.style.display = 'none';
+    controlsSection.classList.add('unlocked');
+  }
+});
+
+const searchInput = document.getElementById('searchInput');
+const searchClear = document.getElementById('searchClear');
+
+searchInput.addEventListener('input', (e) => {
+  searchQuery = e.target.value;
+  searchClear.style.display = searchQuery ? 'flex' : 'none';
+  renderGames();
+});
+
+searchClear.addEventListener('click', () => {
+  searchInput.value = '';
+  searchQuery = '';
+  searchClear.style.display = 'none';
+  renderGames();
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('searchInput');
+    const searchClear = document.getElementById('searchClear');
+
+    if (searchInput) {
+        searchInput.value = '';
+
+        searchInput.setAttribute('autocomplete', 'off');
+        searchInput.setAttribute('autocorrect', 'off');
+        searchInput.setAttribute('autocapitalize', 'off');
+        searchInput.setAttribute('spellcheck', 'false');
+    }
+
+    if (searchClear) {
+        searchClear.style.display = 'none';
+    }
 });
 
 document.addEventListener('DOMContentLoaded', () => {
