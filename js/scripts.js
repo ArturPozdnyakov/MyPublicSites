@@ -261,6 +261,20 @@ function getStatusConfig(times) {
   }
 }
 
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 400) {
+    scrollTopBtn.classList.add('visible');
+  } else {
+    scrollTopBtn.classList.remove('visible');
+  }
+}, {passive: true});
+
+scrollTopBtn.addEventListener('click', () => {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+});
+
 function createCard(game) {
   const card = document.createElement('div');
   card.className = 'game-card';
@@ -513,22 +527,22 @@ searchClear.addEventListener('click', () => {
   renderGames();
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const searchInput = document.getElementById('searchInput');
-    const searchClear = document.getElementById('searchClear');
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('searchInput');
+  const searchClear = document.getElementById('searchClear');
 
-    if (searchInput) {
-        searchInput.value = '';
+  if (searchInput) {
+    searchInput.value = '';
 
-        searchInput.setAttribute('autocomplete', 'off');
-        searchInput.setAttribute('autocorrect', 'off');
-        searchInput.setAttribute('autocapitalize', 'off');
-        searchInput.setAttribute('spellcheck', 'false');
-    }
+    searchInput.setAttribute('autocomplete', 'off');
+    searchInput.setAttribute('autocorrect', 'off');
+    searchInput.setAttribute('autocapitalize', 'off');
+    searchInput.setAttribute('spellcheck', 'false');
+  }
 
-    if (searchClear) {
-        searchClear.style.display = 'none';
-    }
+  if (searchClear) {
+    searchClear.style.display = 'none';
+  }
 });
 
 document.addEventListener('DOMContentLoaded', () => {

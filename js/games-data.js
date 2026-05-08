@@ -1134,5 +1134,67 @@ const games = [
             "Co-op"
         ],
         "description": "Играл с мамой и мл. братом, душевно было"
+    },
+    {
+        "title": "REANIMAL",
+        "image": "https://avatars.mds.yandex.net/get-mpic/17732613/2a0000019c93c4799f38ded5869938071d1b/orig",
+        "myRating": 6.5,
+        "steamRating": 7.7,
+        "timesCompleted": 4,
+        "genres": [
+            "Adventure",
+            "Horror"
+        ],
+        "description": "Есть страшные и интересные моменты, короткая, плохая оптимизация и различные баги"
+    },
+    {
+        "title": "Hitman: Contracts",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/247430/header.jpg",
+        "myRating": 9.0,
+        "steamRating": 8.7,
+        "timesCompleted": 2,
+        "genres": [
+            "Action",
+            "Stealth"
+        ],
+        "description": ""
+    },
+    {
+        "title": "Tainted Grail: The Fall of Avalon",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1466060/header.jpg",
+        "myRating": 2.0,
+        "steamRating": 8.8,
+        "timesCompleted": 0,
+        "genres": [
+            "RPG",
+            "Adventure",
+            "Open-World"
+        ],
+        "description": "Побегал час или два нудятина лютая с лагами бредятина ужасная как будто в вонючий скайрим или даже хуже"
+    },
+    {
+        "title": "Dead as Disco",
+        "image": "https://i.ytimg.com/vi/1ZI782xkJnA/maxresdefault.jpg",
+        "myRating": 9.0,
+        "steamRating": 9.4,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Souls-like",
+            "Slasher"
+        ],
+        "description": "Хорошая оптимизация, динамично, прошел на легкой сложности с валютой через CE.\n\n-0.5 балла за пастинг с elden ring (арора = радагон)\n-0.5 балла за мультики какие-то вместо сцен ну прям фу"
+    },
+    {
+        "title": "Overgrowth",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/25000/header.jpg",
+        "myRating": 8.0,
+        "steamRating": 8.6,
+        "timesCompleted": 1,
+        "genres": [
+            "Action",
+            "Adventure"
+        ],
+        "description": "-0.5 балла за то что нет вообще никакой озвучки и ru субтитров\n-1.5 балл за просто какой-то набор уровней и примитивный сюжет"
     }
 ];
